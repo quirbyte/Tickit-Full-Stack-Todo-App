@@ -27,21 +27,6 @@
 
 ---
 
-## 📂 Project Structure
-
-```text
-├── backend/
-│   ├── database/    # Mongoose schemas (User, Todo)
-│   ├── middleware/  # JWT Authentication logic (userMiddleware.js)
-│   ├── routes/      # Modular Express routes (user.js, todo.js)
-│   └── index.js     # Server entry point
-└── frontend/
-    ├── src/
-    │   ├── state/      # Recoil Atoms (authAtom.js)
-    │   ├── pages/      # AuthPage.jsx & TodoPage.jsx
-    │   └── components/ # UI components
-
-```
 ⚙️ Setup Instructions
 1. Prerequisites
 Node.js installed on your local machine.
