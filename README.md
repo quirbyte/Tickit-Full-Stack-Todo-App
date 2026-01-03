@@ -28,11 +28,11 @@
 ---
 ## 💻 Dashboard Views
 
-- **Login Page: **
+- **Login Page:**
   
 <img width="1915" height="1011" alt="Screenshot 2026-01-03 130912" src="https://github.com/user-attachments/assets/71d3777d-cbc9-4cd0-8871-ece06d0bc548" />
 
-- **User View: **
+- **User View:**
   <img width="1899" height="1011" alt="Screenshot 2026-01-03 131157" src="https://github.com/user-attachments/assets/e96f5a84-2aa6-4e1e-827b-8884a81bbdf1" />
 
 
