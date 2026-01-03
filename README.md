@@ -38,66 +38,58 @@
 
 ---
 
-⚙️ Setup Instructions
+## ⚙️ Setup Instructions
 1. Prerequisites
-Node.js installed on your local machine.
-
-A MongoDB Atlas connection string.
+     Node.js installed on your local machine.
+     MongoDB Atlas connection string.
 
 2. Backend Setup
-Navigate to the backend folder:
-
-Bash
-
-cd backend
-Install dependencies:
-
-Bash
+  Navigate to the backend folder:
+   ```
+    bash
+    
+    cd backend
+   ```
+    
+  Install dependencies:
+```
+bash
 
 npm install
-Create a .env file in the backend root and add:
+```
+  Create a .env file in the backend root and add:
 
-Code snippet
-
+  Code snippet
+```
 PORT=3000
 MONGO_URL=your_mongodb_uri_here
 JWT_SECRET=your_unique_jwt_secret
-Start the server:
-
-Bash
+```
+  Start the server:
+```
+bash
 
 node index.js
+```
 3. Frontend Setup
 Navigate to the frontend folder:
-
-Bash
+```
+bash
 
 cd frontend
+```
 Install dependencies:
-
-Bash
+```
+bash
 
 npm install
+```
 Start the development server:
-
-Bash
+```
+bash
 
 npm run dev
-🛡️ API Endpoints
-User Routes (/user)
-POST /user/signup - Register a new user (Validated by Zod).
-
-POST /user/signin - Authenticate user and return JWT.
-
-Todo Routes (/todo)
-GET /todo - Fetch all todos belonging to the authenticated user.
-
-POST /todo - Create a new todo item.
-
-PUT /todo/:id - Toggle the completion status of a todo.
-
-DELETE /todo/:id - Remove a specific todo.
-
+```
 ---
 
 ## 🤝 Contributing
